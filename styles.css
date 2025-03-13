@@ -1,0 +1,53 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 2px;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .snake {
+    background-color: green;
+  }
+  
+  .food {
+    background-color: red;
+  }
+  
+  body {
+    display: flex;
+  }
+  
+  .controls {
+    flex-grow: 1;
+  
+  }
+  
+  
+  button {
+    background-color: beige;
+    color: coral;
+    font-size: larger;
+  }
+  
+  #yeeeees {
+    margin-right: 5px;
+  }
+  
+  p {
+    padding-left: 5px;
+    padding-right: 50px;
+    font-size: xx-large;
+    color: tomato;
+  }
+  
+  #n {
+    margin-top: 35px;
+    height: 30px;
+  }
+  
